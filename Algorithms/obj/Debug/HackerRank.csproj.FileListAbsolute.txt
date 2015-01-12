@@ -4,3 +4,9 @@ C:\Users\Walid\documents\visual studio 2013\Projects\ConsoleApplication1\Console
 C:\Users\Walid\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\HackerRank.pdb
 C:\Users\Walid\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\HackerRank.exe
 C:\Users\Walid\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\HackerRank.pdb
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.exe.config
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\obj\Debug\HackerRank.exe
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\obj\Debug\HackerRank.pdb
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.exe
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.pdb
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\obj\Debug\HackerRank.csprojResolveAssemblyReference.cache

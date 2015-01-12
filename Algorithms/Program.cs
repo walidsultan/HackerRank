@@ -40,9 +40,12 @@ namespace HackerRank
             //evenTreeTests.Test3();
             //evenTreeTests.Test4();
 
-            ConnectingTownsTests connectingTownsTests = new ConnectingTownsTests();
-            //connectingTownsTests.Test1();
-            connectingTownsTests.Test2();
+            //ConnectingTownsTests connectingTownsTests = new ConnectingTownsTests();
+            ////connectingTownsTests.Test1();
+            //connectingTownsTests.Test2();
+
+            AJourneyToTheMoonTests journeyToTheMoonTests = new AJourneyToTheMoonTests();
+            journeyToTheMoonTests.Test2();
         }
 
         public static bool AreAnagram(string str1, string str2)

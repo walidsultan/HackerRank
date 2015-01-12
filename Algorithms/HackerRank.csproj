@@ -47,6 +47,8 @@
     <Compile Include="Combinatorics\HandShake.cs" />
     <Compile Include="Combinatorics\MinimumDrawsTests.cs" />
     <Compile Include="Combinatorics\MinimumDraws.cs" />
+    <Compile Include="GraphTheory\AJourneyToTheMoon.cs" />
+    <Compile Include="GraphTheory\AJourneyToTheMoonTests.cs" />
     <Compile Include="GraphTheory\EvenTree.cs" />
     <Compile Include="GraphTheory\EvenTreeTests.cs" />
     <Compile Include="InsertionSort.cs" />
