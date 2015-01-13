@@ -10,3 +10,9 @@ C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\obj\Debug\HackerRank.pdb
 C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.exe
 C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.pdb
 C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\obj\Debug\HackerRank.csprojResolveAssemblyReference.cache
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.exe.config
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\obj\Debug\HackerRank.exe
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\obj\Debug\HackerRank.pdb
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.exe
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.pdb
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\obj\Debug\HackerRank.csprojResolveAssemblyReference.cache

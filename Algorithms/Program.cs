@@ -45,7 +45,7 @@ namespace HackerRank
             //connectingTownsTests.Test2();
 
             AJourneyToTheMoonTests journeyToTheMoonTests = new AJourneyToTheMoonTests();
-            journeyToTheMoonTests.Test2();
+            journeyToTheMoonTests.Test1();
         }
 
         public static bool AreAnagram(string str1, string str2)

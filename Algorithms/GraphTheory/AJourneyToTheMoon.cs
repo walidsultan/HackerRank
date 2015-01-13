@@ -28,47 +28,70 @@ namespace HackerRank.GraphTheory
             List<List<int>> astronauts = new List<List<int>>();
             for (int i = 0; i < countriesCount; i++)
             {
-                int[] countryAstronauts = _reader.ReadLine().Split(' ').Select(s => int.Parse(s)).ToArray();
-
-                bool addPair = true;
-                for (int j = 0; j < countryAstronauts.Length; j++)
-                {
-                    List<int> existingPair = astronauts.SingleOrDefault(ag => ag.Count(a => a == countryAstronauts[j]) > 0);
-                    if (existingPair != null)
+                List<int> countryAstronauts = _reader.ReadLine().Split(' ').Select(s => int.Parse(s)).ToList();
+                List<List<int>> existingPairs = new List<List<int>>();
+                countryAstronauts.ForEach(n => {
+                    List<int> existingPair = astronauts.SingleOrDefault(p => p.Count(a => a == n) > 0);
+                    if (existingPair != null && existingPairs.Count(e=>e==existingPair)==0)
                     {
-                        List<int> branchedPair = astronauts.SingleOrDefault(ag => ag.Count(a => a == countryAstronauts[j == 0 ? 1 : 0]) > 0);
-                        if (branchedPair != null)
-                        {
-                            foreach (int n in existingPair)
-                            {
-                                branchedPair.Add(n);
-                            }
-                        }
-                        else
-                        {
-                            existingPair.Add(countryAstronauts[j == 0 ? 1 : 0]);
-                        }
-                        addPair = false;
-                        break;
+                        existingPairs.Add(existingPair);
                     }
-                }
-                if (addPair)
+                });
+
+                if (existingPairs.Count == 0)
                 {
-                    astronauts.Add(countryAstronauts.ToList());
+                    astronauts.Add(countryAstronauts);
+                }
+                else if (existingPairs.Count == 1)
+                {
+                    countryAstronauts.ForEach(n =>
+                        {
+                            if (existingPairs[0].Count(e => e == n) == 0)
+                            {
+                                existingPairs[0].Add(n);
+                            }
+                        });
+                }
+                else if (existingPairs.Count == 2)
+                {
+                    existingPairs[0].ForEach(n =>
+                    {
+                        if (existingPairs[1].Count(e => e == n) == 0)
+                        {
+                            existingPairs[1].Add(n);
+                        }
+                    });
+
+                    astronauts.Remove(existingPairs[0]);
                 }
             }
 
             //Test
-            foreach (List<int> ag in astronauts)
-            {
-                foreach (int a in ag)
-                {
-                    if (astronauts.Count(agr => agr.Count(ar => ar == a) > 0) > 1)
-                    {
-                        int t = 0;
-                    }
-                }
-            }
+            //int t = 0;
+            //foreach (List<int> ag in astronauts)
+            //{
+            //    foreach (int a in ag)
+            //    {
+            //        t++;
+            //    }
+            //}
+
+            //for (int i = 1; i < astronautsCount; i++)
+            //{
+            //    int e=0;
+            //    foreach (List<int> ag in astronauts)
+            //    {
+            //        foreach (int a in ag)
+            //        {
+            //            if (i == a)
+            //                e++;
+            //        }
+            //    }
+            //    if (e == 0)
+            //    {
+            //        int y = 0;
+            //    }
+            //}
 
             int pairs = 0;
             for (int i = 0; i < astronauts.Count; i++)
@@ -91,6 +114,22 @@ namespace HackerRank.GraphTheory
                 }
             }
             _writer.WriteLine(pairs.ToString());
+        }
+
+        private static void AddRelatedPairs(List<List<int>> astronauts, int[] countryAstronauts, int j, List<int> existingPair)
+        {
+            List<int> branchedPair = astronauts.SingleOrDefault(ag => ag.Count(a => a == countryAstronauts[j == 0 ? 1 : 0]) > 0);
+            if (branchedPair != null)
+            {
+                foreach (int n in existingPair)
+                {
+                    branchedPair.Add(n);
+                }
+            }
+            else
+            {
+                existingPair.Add(countryAstronauts[j == 0 ? 1 : 0]);
+            }
         }
     }
 }
