@@ -80,7 +80,18 @@ namespace HackerRank.GraphTheory
              Debug.Assert(writer._buffer[0] == "4527147");
          }
 
+         public void Test09()
+         {
+             string[] testData = File.ReadAllText("Test09.txt").Split(new string[] { Environment.NewLine }, StringSplitOptions.None);
 
+             TestInputReader reader = new TestInputReader(testData);
+             TestOutputWriter writer = new TestOutputWriter();
+
+             AJourneyToTheMoon journeyToTheMoon = new AJourneyToTheMoon(writer, reader);
+
+             journeyToTheMoon.Init();
+             Debug.Assert(writer._buffer[0] == "44974622");
+         }
 
 
     }

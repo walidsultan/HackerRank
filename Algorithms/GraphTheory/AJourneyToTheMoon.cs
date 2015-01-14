@@ -55,15 +55,8 @@ namespace HackerRank.GraphTheory
                 }
                 else if (existingPairs.Count == 2)
                 {
-                    existingPairs[0].ForEach(n =>
-                    {
-                        if (existingPairs[1].Count(e => e == n) == 0)
-                        {
-                            existingPairs[1].Add(n);
-                        }
-                    });
-
-                    astronauts.Remove(existingPairs[0]);
+                    existingPairs[0].AddRange(existingPairs[1]);
+                    astronauts.Remove(existingPairs[1]);
                 }
             }
 
