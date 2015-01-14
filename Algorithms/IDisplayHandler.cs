@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HackerRank.Algorithms.Combinatorics
+namespace HackerRank.Algorithms
 {
-    public class MinimumDrawsTests
+    public interface IDisplayHandler
     {
-      
+        void WriteLine(string s);
+        String ReadLine();
     }
 }

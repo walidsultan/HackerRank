@@ -4,23 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HackerRank.GraphTheory
+namespace HackerRank.Algorithms.GraphTheory
 {
     public class AJourneyToTheMoon
     {
-        private IOutputWriter _writer;
-        private IInputReader _reader;
+        private IDisplayHandler _console;
 
-        public AJourneyToTheMoon(IOutputWriter writer, IInputReader reader)
+        public AJourneyToTheMoon(IDisplayHandler console)
         {
-            _writer = writer;
-            _reader = reader;
+            _console = console;
         }
 
 
         public void Init()
         {
-            string[] inParams = _reader.ReadLine().Split(' ');
+            string[] inParams = _console.ReadLine().Split(' ');
             int astronautsCount = int.Parse(inParams[0].ToString());
             int countriesCount = int.Parse(inParams[1].ToString());
 
@@ -28,7 +26,7 @@ namespace HackerRank.GraphTheory
             List<List<int>> astronauts = new List<List<int>>();
             for (int i = 0; i < countriesCount; i++)
             {
-                List<int> countryAstronauts = _reader.ReadLine().Split(' ').Select(s => int.Parse(s)).ToList();
+                List<int> countryAstronauts = _console.ReadLine().Split(' ').Select(s => int.Parse(s)).ToList();
                 List<List<int>> existingPairs = new List<List<int>>();
                 countryAstronauts.ForEach(n =>
                 {
@@ -73,7 +71,7 @@ namespace HackerRank.GraphTheory
             }
             long singleAstronauts=astronautsCount - pairedAstronautsCount;
             pairsCount += singleAstronauts * pairedAstronautsCount + (singleAstronauts * (singleAstronauts - 1) / 2);
-            _writer.WriteLine(pairsCount.ToString());
+            _console.WriteLine(pairsCount.ToString());
         }
     }
 }

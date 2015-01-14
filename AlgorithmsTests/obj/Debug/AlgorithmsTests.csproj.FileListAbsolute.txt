@@ -1,0 +1,9 @@
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Debug\AlgorithmsTests.csprojResolveAssemblyReference.cache
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\HackerRank.AlgorithmsTests.dll
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\HackerRank.AlgorithmsTests.pdb
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\HackerRank.Algorithms.exe
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\HackerRank.Algorithms.pdb
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Debug\HackerRank.AlgorithmsTests.dll
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Debug\HackerRank.AlgorithmsTests.pdb
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\GraphTheory\Test09.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\GraphTheory\Test13.txt

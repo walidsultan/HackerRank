@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HackerRank.GraphTheory
+namespace HackerRank.Algorithms.GraphTheory
 {
     class EvenTreeTests
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{558B350F-F22C-49D3-BFC6-D967045A6B12}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HackerRank</RootNamespace>
-    <AssemblyName>HackerRank</AssemblyName>
+    <RootNamespace>HackerRank.Algorithms</RootNamespace>
+    <AssemblyName>HackerRank.Algorithms</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -47,10 +47,11 @@
     <Compile Include="Combinatorics\HandShake.cs" />
     <Compile Include="Combinatorics\MinimumDrawsTests.cs" />
     <Compile Include="Combinatorics\MinimumDraws.cs" />
+    <Compile Include="ConsoleTester.cs" />
     <Compile Include="GraphTheory\AJourneyToTheMoon.cs" />
-    <Compile Include="GraphTheory\AJourneyToTheMoonTests.cs" />
     <Compile Include="GraphTheory\EvenTree.cs" />
     <Compile Include="GraphTheory\EvenTreeTests.cs" />
+    <Compile Include="IDisplayHandler.cs" />
     <Compile Include="InsertionSort.cs" />
     <Compile Include="KnapSack.cs" />
     <Compile Include="Program.cs" />

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HackerRank.Combinatorics
+namespace HackerRank.Algorithms.Combinatorics
 {
     public class HandShakeTests
     {

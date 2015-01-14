@@ -1,5 +1,5 @@
-﻿using HackerRank.Combinatorics;
-using HackerRank.GraphTheory;
+﻿using HackerRank.Algorithms.Combinatorics;
+using HackerRank.Algorithms.GraphTheory;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HackerRank
+namespace HackerRank.Algorithms
 {
     class Program
     {
@@ -45,13 +45,12 @@ namespace HackerRank
             ////connectingTownsTests.Test1();
             //connectingTownsTests.Test2();
 
-            AJourneyToTheMoonTests journeyToTheMoonTests = new AJourneyToTheMoonTests();
+            //AJourneyToTheMoonTests journeyToTheMoonTests = new AJourneyToTheMoonTests();
             //journeyToTheMoonTests.Test1();
             //journeyToTheMoonTests.Test3();
             //journeyToTheMoonTests.Test2();
             //journeyToTheMoonTests.Test4();
             //journeyToTheMoonTests.Test5();
-            journeyToTheMoonTests.Test09();
         }
 
         public static bool AreAnagram(string str1, string str2)

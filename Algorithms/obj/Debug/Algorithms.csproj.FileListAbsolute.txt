@@ -1,0 +1,6 @@
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.Algorithms.exe.config
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.Algorithms.exe
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.Algorithms.pdb
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\obj\Debug\HackerRank.Algorithms.exe
+C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\obj\Debug\HackerRank.Algorithms.pdb
