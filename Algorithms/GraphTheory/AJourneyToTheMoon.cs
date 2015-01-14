@@ -30,9 +30,10 @@ namespace HackerRank.GraphTheory
             {
                 List<int> countryAstronauts = _reader.ReadLine().Split(' ').Select(s => int.Parse(s)).ToList();
                 List<List<int>> existingPairs = new List<List<int>>();
-                countryAstronauts.ForEach(n => {
+                countryAstronauts.ForEach(n =>
+                {
                     List<int> existingPair = astronauts.SingleOrDefault(p => p.Count(a => a == n) > 0);
-                    if (existingPair != null && existingPairs.Count(e=>e==existingPair)==0)
+                    if (existingPair != null && existingPairs.Count(e => e == existingPair) == 0)
                     {
                         existingPairs.Add(existingPair);
                     }
@@ -66,70 +67,20 @@ namespace HackerRank.GraphTheory
                 }
             }
 
-            //Test
-            //int t = 0;
-            //foreach (List<int> ag in astronauts)
-            //{
-            //    foreach (int a in ag)
-            //    {
-            //        t++;
-            //    }
-            //}
-
-            //for (int i = 1; i < astronautsCount; i++)
-            //{
-            //    int e=0;
-            //    foreach (List<int> ag in astronauts)
-            //    {
-            //        foreach (int a in ag)
-            //        {
-            //            if (i == a)
-            //                e++;
-            //        }
-            //    }
-            //    if (e == 0)
-            //    {
-            //        int y = 0;
-            //    }
-            //}
-
-            int pairs = 0;
-            for (int i = 0; i < astronauts.Count; i++)
+            long pairsCount = 0;
+            int rowsCount = astronauts.Count;
+            long pairedAstronautsCount = 0;
+            for (int i = 0; i < rowsCount; i++)
             {
-                int index = 0;
-                List<List<int>> trimmedPairs = astronauts.Where(ag =>
+                pairedAstronautsCount += astronauts[i].Count;
+                if (i < rowsCount - 1)
                 {
-                    if (index > i)
-                    {
-                        return true;
-                    }
-                    index++;
-                    return false;
-                }).ToList();
-
-                //
-                foreach (List<int> countryAstronauts in trimmedPairs)
-                {
-                    pairs += (countryAstronauts.Count * astronauts[i].Count);
+                    pairsCount += pairedAstronautsCount * astronauts[i + 1].Count;
                 }
             }
-            _writer.WriteLine(pairs.ToString());
-        }
-
-        private static void AddRelatedPairs(List<List<int>> astronauts, int[] countryAstronauts, int j, List<int> existingPair)
-        {
-            List<int> branchedPair = astronauts.SingleOrDefault(ag => ag.Count(a => a == countryAstronauts[j == 0 ? 1 : 0]) > 0);
-            if (branchedPair != null)
-            {
-                foreach (int n in existingPair)
-                {
-                    branchedPair.Add(n);
-                }
-            }
-            else
-            {
-                existingPair.Add(countryAstronauts[j == 0 ? 1 : 0]);
-            }
+            long singleAstronauts=astronautsCount - pairedAstronautsCount;
+            pairsCount += singleAstronauts * pairedAstronautsCount + (singleAstronauts * (singleAstronauts - 1) / 2);
+            _writer.WriteLine(pairsCount.ToString());
         }
     }
 }

@@ -2,6 +2,7 @@
 using HackerRank.GraphTheory;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -45,7 +46,11 @@ namespace HackerRank
             //connectingTownsTests.Test2();
 
             AJourneyToTheMoonTests journeyToTheMoonTests = new AJourneyToTheMoonTests();
-            journeyToTheMoonTests.Test1();
+            //journeyToTheMoonTests.Test1();
+            //journeyToTheMoonTests.Test3();
+            //journeyToTheMoonTests.Test2();
+            //journeyToTheMoonTests.Test4();
+            journeyToTheMoonTests.Test5();
         }
 
         public static bool AreAnagram(string str1, string str2)
