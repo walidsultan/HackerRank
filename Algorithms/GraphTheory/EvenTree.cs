@@ -6,28 +6,26 @@ using System.Threading.Tasks;
 
 namespace HackerRank.Algorithms.GraphTheory
 {
-    class EvenTree
+    public class EvenTree
     {
-        private IOutputWriter _writer;
-        private IInputReader _reader;
+        private IDisplayHandler _console;
 
-        public EvenTree(IOutputWriter writer, IInputReader reader)
+        public EvenTree(IDisplayHandler console)
         {
-            _writer = writer;
-            _reader = reader;
+            _console = console;
         }
 
         public void Init()
         {
             List<Node> mainTree = new List<Node>();
-            string[] inParams = _reader.ReadLine().Split(' ');
+            string[] inParams = _console.ReadLine().Split(' ');
             //int nodesCount = int.Parse(inParams[0]);
             int edgesCount = int.Parse(inParams[1]);
 
             //Build Main Tree
             for (int edge = 0; edge < edgesCount; edge++)
             {
-                string[] nodes = _reader.ReadLine().Split(' ');
+                string[] nodes = _console.ReadLine().Split(' ');
 
                 int firstNodeIndex = int.Parse(nodes[0]);
                 int secondNodeIndex = int.Parse(nodes[1]);
@@ -41,7 +39,7 @@ namespace HackerRank.Algorithms.GraphTheory
             _TestStartTime = DateTime.Now;
             _TestIndex = 0;
             int removedEdges = SplitTree(mainTree, 0);
-            _writer.WriteLine(removedEdges.ToString());
+            _console.WriteLine(removedEdges.ToString());
         }
         public static decimal _TestIndex = 0;
         public static DateTime _TestStartTime;

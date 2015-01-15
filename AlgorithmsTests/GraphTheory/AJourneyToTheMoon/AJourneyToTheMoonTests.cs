@@ -9,6 +9,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
     [TestClass]
     public class AJourneyToTheMoonTests
     {
+        [TestCategory("A Journey to The Moon")]
         [TestMethod]
         public void Test01()
         {
@@ -22,6 +23,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
             Assert.AreEqual(consoleTester._outputBuffer[0], "4", "Test01 is wrong");
         }
 
+        [TestCategory("A Journey to The Moon")]
         [TestMethod]
         public void Test02()
         {
@@ -37,6 +39,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
             Assert.AreEqual(consoleTester._outputBuffer[0], "44125", "Test02 is wrong");
         }
 
+        [TestCategory("A Journey to The Moon")]
         [TestMethod]
         public void Test03()
         {
@@ -50,6 +53,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
             Assert.AreEqual(consoleTester._outputBuffer[0], "23", "Test03 is wrong");
         }
 
+        [TestCategory("A Journey to The Moon")]
         [TestMethod]
         public void Test04()
         {
@@ -65,11 +69,12 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
             Assert.AreEqual(consoleTester._outputBuffer[0], "3984", "Test04 is wrong");
         }
 
+        [TestCategory("A Journey to The Moon")]
         [TestMethod]
         public void Test13()
         {
             string testPath = Directory.GetCurrentDirectory();
-            string[] testData = File.ReadAllText("GraphTheory\\Test13.txt").Split(new string[] { Environment.NewLine }, StringSplitOptions.None);
+            string[] testData = File.ReadAllText("GraphTheory\\AJourneyToTheMoon\\Test13.txt").Split(new string[] { Environment.NewLine }, StringSplitOptions.None);
 
             ConsoleTester consoleTester = new ConsoleTester(testData);
 
@@ -79,10 +84,11 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
             Assert.AreEqual(consoleTester._outputBuffer[0], "4527147", "Test13 is wrong"); ;
         }
 
+        [TestCategory("A Journey to The Moon")]
         [TestMethod]
         public void Test09()
         {
-            string[] testData = File.ReadAllText("GraphTheory\\Test09.txt").Split(new string[] { Environment.NewLine }, StringSplitOptions.None);
+            string[] testData = File.ReadAllText("GraphTheory\\AJourneyToTheMoon\\Test09.txt").Split(new string[] { Environment.NewLine }, StringSplitOptions.None);
 
             ConsoleTester consoleTester = new ConsoleTester(testData);
 

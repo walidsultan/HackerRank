@@ -50,7 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="GraphTheory\AJourneyToTheMoonTests.cs" />
+    <Compile Include="GraphTheory\AJourneyToTheMoon\AJourneyToTheMoonTests.cs" />
+    <Compile Include="GraphTheory\EvenTree\EvenTreeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -63,10 +64,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GraphTheory\Test09.txt">
+    <Content Include="GraphTheory\AJourneyToTheMoon\Test09.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="GraphTheory\Test13.txt">
+    <Content Include="GraphTheory\AJourneyToTheMoon\Test13.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

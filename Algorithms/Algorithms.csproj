@@ -50,7 +50,6 @@
     <Compile Include="ConsoleTester.cs" />
     <Compile Include="GraphTheory\AJourneyToTheMoon.cs" />
     <Compile Include="GraphTheory\EvenTree.cs" />
-    <Compile Include="GraphTheory\EvenTreeTests.cs" />
     <Compile Include="IDisplayHandler.cs" />
     <Compile Include="InsertionSort.cs" />
     <Compile Include="KnapSack.cs" />
