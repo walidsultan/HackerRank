@@ -7,3 +7,12 @@ C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Release\HackerR
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Release\AlgorithmsTests.csprojResolveAssemblyReference.cache
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Release\HackerRank.AlgorithmsTests.dll
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Release\HackerRank.AlgorithmsTests.pdb
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Release\GraphTheory\Test09.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Release\GraphTheory\Test13.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Release\HackerRank.AlgorithmsTests.dll
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Release\HackerRank.AlgorithmsTests.pdb
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Release\HackerRank.Algorithms.exe
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Release\HackerRank.Algorithms.pdb
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Release\AlgorithmsTests.csprojResolveAssemblyReference.cache
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Release\HackerRank.AlgorithmsTests.dll
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Release\HackerRank.AlgorithmsTests.pdb

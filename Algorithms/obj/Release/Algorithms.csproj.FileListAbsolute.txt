@@ -3,3 +3,9 @@ C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\bin\Release\HackerRank.A
 C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\bin\Release\HackerRank.Algorithms.pdb
 C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\obj\Release\HackerRank.Algorithms.exe
 C:\Users\wsultan\Documents\GitHub\HackerRank\Algorithms\obj\Release\HackerRank.Algorithms.pdb
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\bin\Release\HackerRank.Algorithms.exe.config
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\bin\Release\HackerRank.Algorithms.exe
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\bin\Release\HackerRank.Algorithms.pdb
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\obj\Release\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\obj\Release\HackerRank.Algorithms.exe
+C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\obj\Release\HackerRank.Algorithms.pdb

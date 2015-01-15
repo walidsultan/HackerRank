@@ -30,7 +30,7 @@ namespace HackerRank.Algorithms.GraphTheory
                 List<List<int>> existingPairs = new List<List<int>>();
                 countryAstronauts.ForEach(n =>
                 {
-                    List<int> existingPair = astronauts.SingleOrDefault(p => p.Count(a => a == n) > 0);
+                    List<int> existingPair = astronauts.SingleOrDefault(p => p.IndexOf(n) >= 0);
                     if (existingPair != null && existingPairs.Count(e => e == existingPair) == 0)
                     {
                         existingPairs.Add(existingPair);
@@ -45,7 +45,7 @@ namespace HackerRank.Algorithms.GraphTheory
                 {
                     countryAstronauts.ForEach(n =>
                         {
-                            if (existingPairs[0].Count(e => e == n) == 0)
+                            if (existingPairs[0].IndexOf(n) == -1)
                             {
                                 existingPairs[0].Add(n);
                             }

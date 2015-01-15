@@ -47,3 +47,9 @@ Temporary Items
 *.exe
 *.exe
 *.pdb
+*.manifest
+Algorithms/obj/Debug/Algorithms.csproj.FileListAbsolute.txt
+Algorithms/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.orig
+*.vsp
+*.cache
