@@ -52,7 +52,7 @@
     <Compile Include="GraphTheory\EvenTree.cs" />
     <Compile Include="IDisplayHandler.cs" />
     <Compile Include="InsertionSort.cs" />
-    <Compile Include="KnapSack.cs" />
+    <Compile Include="DynamicProgramming\KnapSack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SummationsAndAlgebra\TriangleNumbers.cs" />

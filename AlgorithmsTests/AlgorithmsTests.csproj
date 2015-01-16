@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="DynamicProgramming\KnapSack\KnapSackTests.cs" />
     <Compile Include="GraphTheory\AJourneyToTheMoon\AJourneyToTheMoonTests.cs" />
     <Compile Include="GraphTheory\EvenTree\EvenTreeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

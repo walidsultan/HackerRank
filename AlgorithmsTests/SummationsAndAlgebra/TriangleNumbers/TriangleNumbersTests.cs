@@ -12,9 +12,8 @@ namespace HackerRank.AlgorithmsTests.SummationsAndAlgebra
     [TestClass]
     public class TriangleNumbersTests
     {
-        [TestCategory("Triangle Numbers")]
-        [TestMethod]
-        public void Test01()
+        [TestCategory("Triangle Numbers"),TestMethod]
+        public void TriangleNumbers_Test01()
         {
             string[] testData = { "2","3","4" };
 
@@ -29,7 +28,7 @@ namespace HackerRank.AlgorithmsTests.SummationsAndAlgebra
 
         [TestCategory("Triangle Numbers")]
         [TestMethod]
-        public void Test03()
+        public void TriangleNumbers_Test03()
         {
             string[] testData = File.ReadAllText("SummationsAndAlgebra\\TriangleNumbers\\Test03.txt").Split('\n');
 

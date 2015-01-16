@@ -4,29 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace HackerRank.Algorithms.DynamicProgramming
 {
-    class KnapSack
+    public class KnapSack
     {
-        public KnapSack()
+         private IDisplayHandler _console;
+
+         public KnapSack(IDisplayHandler console)
         {
-            //  int T = int.Parse(Console.ReadLine());
-            int T = 1;
+            _console = console;
+        }
+
+
+        public void Solve()
+        {
+            int T = int.Parse(_console.ReadLine());
             for (int t = 0; t < T; t++)
             {
-                //string[] inParams = Console.ReadLine().Split(' ');
-                //int k = int.Parse(inParams[1]);
-                //int[] ar = Console.ReadLine().Split(' ').Select(s => int.Parse(s)).ToArray();
-                int k = 6;
-                int[] ar = {5 };
-                List<int> results = new List<int>();
+                string[] inParams = _console.ReadLine().Split(' ');
+                int k = int.Parse(inParams[1]);
+                int[] ar = _console.ReadLine().Split(' ').Select(s => int.Parse(s)).ToArray();
 
-                int s=GetSmallestRemainder(ar, k);
+                int r = GetSmallestRemainder(ar, k);
 
-                Console.WriteLine(k - s);
+                _console.WriteLine((k - r).ToString());
             }
-
-            Console.ReadKey();
         }
 
         int GetSmallestRemainder(int[] ar, int v)
