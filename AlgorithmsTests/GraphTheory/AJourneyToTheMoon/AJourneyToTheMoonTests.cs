@@ -19,7 +19,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
 
             AJourneyToTheMoon journeyToTheMoon = new AJourneyToTheMoon(consoleTester);
 
-            journeyToTheMoon.Init();
+            journeyToTheMoon.Solve();
             Assert.AreEqual(consoleTester._outputBuffer[0], "4", "Test01 is wrong");
         }
 
@@ -35,7 +35,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
 
             AJourneyToTheMoon journeyToTheMoon = new AJourneyToTheMoon(consoleTester);
 
-            journeyToTheMoon.Init();
+            journeyToTheMoon.Solve();
             Assert.AreEqual(consoleTester._outputBuffer[0], "44125", "Test02 is wrong");
         }
 
@@ -49,7 +49,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
 
             AJourneyToTheMoon journeyToTheMoon = new AJourneyToTheMoon(consoleTester);
 
-            journeyToTheMoon.Init();
+            journeyToTheMoon.Solve();
             Assert.AreEqual(consoleTester._outputBuffer[0], "23", "Test03 is wrong");
         }
 
@@ -65,7 +65,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
 
             AJourneyToTheMoon journeyToTheMoon = new AJourneyToTheMoon(consoleTester);
 
-            journeyToTheMoon.Init();
+            journeyToTheMoon.Solve();
             Assert.AreEqual(consoleTester._outputBuffer[0], "3984", "Test04 is wrong");
         }
 
@@ -80,7 +80,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
 
             AJourneyToTheMoon journeyToTheMoon = new AJourneyToTheMoon(consoleTester);
 
-            journeyToTheMoon.Init();
+            journeyToTheMoon.Solve();
             Assert.AreEqual(consoleTester._outputBuffer[0], "4527147", "Test13 is wrong"); ;
         }
 
@@ -94,7 +94,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
 
             AJourneyToTheMoon journeyToTheMoon = new AJourneyToTheMoon(consoleTester);
 
-            journeyToTheMoon.Init();
+            journeyToTheMoon.Solve();
             Assert.AreEqual(consoleTester._outputBuffer[0], "44974622", "Test09 is wrong");
         }
     }

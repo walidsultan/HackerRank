@@ -16,7 +16,7 @@ namespace HackerRank.Algorithms.GraphTheory
         }
 
 
-        public void Init()
+        public void Solve()
         {
             string[] inParams = _console.ReadLine().Split(' ');
             int astronautsCount = int.Parse(inParams[0].ToString());

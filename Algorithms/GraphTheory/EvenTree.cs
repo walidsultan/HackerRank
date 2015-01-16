@@ -15,7 +15,7 @@ namespace HackerRank.Algorithms.GraphTheory
             _console = console;
         }
 
-        public void Init()
+        public void Solve()
         {
             List<Node> mainTree = new List<Node>();
             string[] inParams = _console.ReadLine().Split(' ');

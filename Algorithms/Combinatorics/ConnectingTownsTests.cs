@@ -18,7 +18,7 @@ namespace HackerRank.Algorithms.Combinatorics
 
             ConnectingTowns connectingTowns = new ConnectingTowns(writer, reader);
 
-            connectingTowns.Init();
+            connectingTowns.Solve();
             Debug.Assert(writer._buffer[0] == "3");
             Debug.Assert(writer._buffer[1] == "8");
         }
@@ -70,7 +70,7 @@ namespace HackerRank.Algorithms.Combinatorics
 
             ConnectingTowns connectingTowns = new ConnectingTowns(writer, reader);
 
-            connectingTowns.Init();
+            connectingTowns.Solve();
             Debug.Assert(writer._buffer[0] == "716787");
             Debug.Assert(writer._buffer[1] == "643929");
             Debug.Assert(writer._buffer[1] == "1065949");

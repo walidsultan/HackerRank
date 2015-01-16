@@ -16,3 +16,5 @@ C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Debug\HackerRank.
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Debug\HackerRank.AlgorithmsTests.pdb
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\GraphTheory\AJourneyToTheMoon\Test09.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\GraphTheory\AJourneyToTheMoon\Test13.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\TriangleNumbers\output03.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\TriangleNumbers\Test03.txt

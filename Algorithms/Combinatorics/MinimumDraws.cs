@@ -17,7 +17,7 @@ namespace HackerRank.Algorithms.Combinatorics
             _reader = reader;
         }
 
-        public void Init()
+        public void Solve()
         {
             int T = int.Parse(_reader.ReadLine());
 

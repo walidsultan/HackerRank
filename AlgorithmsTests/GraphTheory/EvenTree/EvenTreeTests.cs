@@ -22,7 +22,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
 
             EvenTree evenTree = new EvenTree(consoleTester);
 
-            evenTree.Init();
+            evenTree.Solve();
             Assert.AreEqual(consoleTester._outputBuffer[0],"2","Test1 is wrong");
         }
 
@@ -36,7 +36,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
 
             EvenTree evenTree = new EvenTree(consoleTester);
 
-            evenTree.Init();
+            evenTree.Solve();
             Assert.AreEqual(consoleTester._outputBuffer[0] , "4","Test 2 is wrong");
         }
 
@@ -50,7 +50,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
 
             EvenTree evenTree = new EvenTree(consoleTester);
 
-            evenTree.Init();
+            evenTree.Solve();
             Assert.AreEqual(consoleTester._outputBuffer[0], "12","Test3 is wrong");
         }
 
@@ -64,7 +64,7 @@ namespace HackerRank.AlgorithmsTests.GraphTheory
 
             EvenTree evenTree = new EvenTree(consoleTester);
 
-            evenTree.Init();
+            evenTree.Solve();
             Assert.AreEqual(consoleTester._outputBuffer[0] ,"11","Test4 is wrong");
         }
     }
