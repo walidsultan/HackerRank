@@ -13,44 +13,7 @@ namespace HackerRank.Algorithms
     {
         static void Main(String[] args)
         {
-            //Insertion Sort
-            //int _ar_size;
-            //_ar_size = 9;
-            //int[] _ar = new int[_ar_size];
-            //String elements = "9 8 6 7 3 5 4 1 2";
-            //String[] split_elements = elements.Split(' ');
-            //for (int _ar_i = 0; _ar_i < _ar_size; _ar_i++)
-            //{
-            //    _ar[_ar_i] = Convert.ToInt32(split_elements[_ar_i]);
-            //}
-            //insertionSort(_ar);
-
-            //Are Anagram
-            //    Console.WriteLine(AreAnagram("walid", "dilaw"));
-            //    Console.WriteLine(AreAnagram("SHady Soltan", "ntlaoS yHSad"));
-            //    Console.WriteLine(AreAnagram("SH", "ntla"));
-            //    Console.ReadKey();
-
-            //KnapSack
-            //KnapSack knapSack = new KnapSack();
-
-            //Even Tree
-            //EvenTreeTests evenTreeTests = new EvenTreeTests();
-            //evenTreeTests.Test1();
-            //evenTreeTests.Test2();
-            //evenTreeTests.Test3();
-            //evenTreeTests.Test4();
-
-            //ConnectingTownsTests connectingTownsTests = new ConnectingTownsTests();
-            ////connectingTownsTests.Test1();
-            //connectingTownsTests.Test2();
-
-            //AJourneyToTheMoonTests journeyToTheMoonTests = new AJourneyToTheMoonTests();
-            //journeyToTheMoonTests.Test1();
-            //journeyToTheMoonTests.Test3();
-            //journeyToTheMoonTests.Test2();
-            //journeyToTheMoonTests.Test4();
-            //journeyToTheMoonTests.Test5();
+          
         }
 
         public static bool AreAnagram(string str1, string str2)
