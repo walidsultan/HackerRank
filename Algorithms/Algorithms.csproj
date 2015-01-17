@@ -48,6 +48,7 @@
     <Compile Include="Combinatorics\MinimumDrawsTests.cs" />
     <Compile Include="Combinatorics\MinimumDraws.cs" />
     <Compile Include="ConsoleTester.cs" />
+    <Compile Include="Cryptography\PRNGSequenceGuessing.cs" />
     <Compile Include="GraphTheory\AJourneyToTheMoon.cs" />
     <Compile Include="GraphTheory\EvenTree.cs" />
     <Compile Include="IDisplayHandler.cs" />
