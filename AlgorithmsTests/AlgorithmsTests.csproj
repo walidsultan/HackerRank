@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Cryptography\PRNGSequenceGuessing\PRNGSequenceGuessingTests.cs" />
     <Compile Include="DynamicProgramming\KnapSack\KnapSackTests.cs" />
+    <Compile Include="GameTheory\PermutationGame\PermutationGameTests.cs" />
     <Compile Include="GraphTheory\AJourneyToTheMoon\AJourneyToTheMoonTests.cs" />
     <Compile Include="GraphTheory\EvenTree\EvenTreeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
