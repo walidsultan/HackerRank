@@ -67,6 +67,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GameTheory\PermutationGame\Output02.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameTheory\PermutationGame\Test02.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="GraphTheory\AJourneyToTheMoon\Test09.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

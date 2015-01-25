@@ -18,3 +18,5 @@ C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\GraphTheory
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\GraphTheory\AJourneyToTheMoon\Test13.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\TriangleNumbers\output03.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\TriangleNumbers\Test03.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\GameTheory\PermutationGame\Output02.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\GameTheory\PermutationGame\Test02.txt
