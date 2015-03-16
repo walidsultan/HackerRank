@@ -55,6 +55,7 @@
     <Compile Include="IDisplayHandler.cs" />
     <Compile Include="ArraysAndSorting\InsertionSort.cs" />
     <Compile Include="DynamicProgramming\KnapSack.cs" />
+    <Compile Include="NumberTheory\MatrixTree.cs" />
     <Compile Include="NumberTheory\Restaurant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
