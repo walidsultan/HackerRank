@@ -55,6 +55,7 @@
     <Compile Include="GameTheory\PermutationGame\PermutationGameTests.cs" />
     <Compile Include="GraphTheory\AJourneyToTheMoon\AJourneyToTheMoonTests.cs" />
     <Compile Include="GraphTheory\EvenTree\EvenTreeTests.cs" />
+    <Compile Include="NumberTheory\RestaurantTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings\Anagram\AnagramTests.cs" />
     <Compile Include="SummationsAndAlgebra\TriangleNumbers\TriangleNumbersTests.cs" />
