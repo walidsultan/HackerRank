@@ -14,21 +14,43 @@ namespace HackerRank.Algorithms.Strings
         public void Solve()
         {
             int T = int.Parse(_console.ReadLine());
+            int offset = 97;
             for (int t = 0; t < T; t++)
             {
                 string text = _console.ReadLine();
+                int[] a = new int[25];
+                foreach (char c in text.ToCharArray())
+                {
+                    int index = (int)c - offset;
+                    a[index]++;
+                }
                 if (IsPalindrome(text))
                 {
                     _console.WriteLine("-1");
+                    continue;
                 }
-                else
+
+                for (int i = 0; i < 25; i++)
                 {
-                    for (int i = 0; i < text.Length; i++)
+                    if (a[i] % 2 != 0)
                     {
-                        string word = text.Remove(i, 1);
-                        if (IsPalindrome(word))
+                        char c = (char)(i + offset);
+                        int startIndex = 0;
+                        bool isPalindromeFound = false;
+                        for (int j = 0; j < a[i]; j++)
                         {
-                            _console.WriteLine(i.ToString());
+                            startIndex = text.IndexOf(c, startIndex);
+                            string word = text.Remove(startIndex,1);
+                            if (IsPalindrome(word))
+                            {
+                                _console.WriteLine(startIndex.ToString());
+                                isPalindromeFound = true;
+                                break;
+                            }
+                            startIndex++;
+                        }
+                        if (isPalindromeFound)
+                        {
                             break;
                         }
                     }
@@ -36,17 +58,18 @@ namespace HackerRank.Algorithms.Strings
             }
         }
 
-        public bool IsPalindrome(string word) {
+        public bool IsPalindrome(string word)
+        {
+            int n = word.Length;
+            for (int i = 0; i < (n / 2) + 1; i++)
+            {
+                if (word[i] != word[n - i - 1])
+                {
+                    return false;
+                }
+            }
 
-            if (word.Length % 2 != 0 && word.Substring(0, (word.Length - 1) / 2) == new String(word.Substring((word.Length + 1) / 2).Reverse().ToArray()))
-            {
-                return true;
-            }
-            else if (word.Length % 2 == 0 && word.Substring(0, word.Length / 2) == new String(word.Substring(word.Length / 2).Reverse().ToArray())) 
-            {
-                return true;
-            }
-            return false;
+            return true;
         }
     }
 }

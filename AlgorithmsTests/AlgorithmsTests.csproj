@@ -85,7 +85,13 @@
     <Content Include="Strings\PalindromeIndex\input10.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Strings\PalindromeIndex\input14.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Strings\PalindromeIndex\output10.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Strings\PalindromeIndex\output14.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="SummationsAndAlgebra\TriangleNumbers\output03.txt">

@@ -66,5 +66,24 @@ namespace HackerRank.AlgorithmsTests.Strings
                 Assert.AreEqual(consoleTester._outputBuffer[i], outputData[i], string.Format("Test10 is wrong for test {0}", i));
             }
         }
+
+        [TestMethod]
+        public void PalindromeIndex_Test14()
+        {
+            string[] testData = File.ReadAllText("Strings\\PalindromeIndex\\input14.txt").Split('\n');
+
+            ConsoleTester consoleTester = new ConsoleTester(testData);
+
+            PalindromeIndex palindromeIndex = new PalindromeIndex(consoleTester);
+
+            palindromeIndex.Solve();
+
+            string[] outputData = File.ReadAllText("Strings\\PalindromeIndex\\output14.txt").Split('\n');
+
+            for (int i = 0; i < outputData.Length; i++)
+            {
+                Assert.AreEqual(consoleTester._outputBuffer[i], outputData[i], string.Format("Test14 is wrong for test {0}", i));
+            }
+        }
     }
 }
