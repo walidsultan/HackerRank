@@ -30,7 +30,8 @@ namespace HackerRank.AlgorithmsTests.SummationsAndAlgebra
         [TestMethod]
         public void TriangleNumbers_Test03()
         {
-            string[] testData = File.ReadAllText("SummationsAndAlgebra\\TriangleNumbers\\Test03.txt").Split('\n');
+            string[] stringSeparators = new string[] { "\r\n" };
+            string[] testData = File.ReadAllText("SummationsAndAlgebra\\TriangleNumbers\\Test03.txt").Split(stringSeparators, StringSplitOptions.None);
 
             ConsoleTester consoleTester = new ConsoleTester(testData);
 
@@ -38,7 +39,7 @@ namespace HackerRank.AlgorithmsTests.SummationsAndAlgebra
 
             triangleNumbers.Solve();
 
-            string[] outputData = File.ReadAllText("SummationsAndAlgebra\\TriangleNumbers\\output03.txt").Split('\n');
+            string[] outputData = File.ReadAllText("SummationsAndAlgebra\\TriangleNumbers\\output03.txt").Split(stringSeparators,StringSplitOptions.None);
 
             for (int i = 0; i < outputData.Length; i++)
             {

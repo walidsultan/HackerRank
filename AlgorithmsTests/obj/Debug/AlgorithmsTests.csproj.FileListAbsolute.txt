@@ -28,3 +28,7 @@ C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Debug\HackerRan
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\obj\Debug\HackerRank.AlgorithmsTests.pdb
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\PalindromeIndex\input14.txt
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\PalindromeIndex\output14.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\PalindromeIndex\input10.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\PalindromeIndex\input14.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\PalindromeIndex\output10.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\PalindromeIndex\output14.txt
