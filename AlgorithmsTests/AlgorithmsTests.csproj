@@ -58,6 +58,7 @@
     <Compile Include="NumberTheory\RestaurantTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings\Anagram\AnagramTests.cs" />
+    <Compile Include="Strings\GemStones\GemStonesTests.cs" />
     <Compile Include="Strings\PalindromeIndex\PalindromeIndexTests.cs" />
     <Compile Include="Strings\Pangram\PangramTests.cs" />
     <Compile Include="SummationsAndAlgebra\TriangleNumbers\TriangleNumbersTests.cs" />
@@ -80,6 +81,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="GraphTheory\AJourneyToTheMoon\Test13.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Strings\GemStones\input00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Strings\GemStones\output00.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Strings\PalindromeIndex\input10.txt">
