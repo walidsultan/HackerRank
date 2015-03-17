@@ -24,3 +24,5 @@ C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\GraphTheo
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\GraphTheory\AJourneyToTheMoon\Test13.txt
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\TriangleNumbers\output03.txt
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\TriangleNumbers\Test03.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\PalindromeIndex\input10.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\PalindromeIndex\output10.txt
