@@ -62,6 +62,7 @@
     <Compile Include="Strings\Anagram.cs" />
     <Compile Include="Strings\PalindromeIndex.cs" />
     <Compile Include="Strings\GemStones.cs" />
+    <Compile Include="Strings\TwoStrings.cs" />
     <Compile Include="Strings\Pangram.cs" />
     <Compile Include="SummationsAndAlgebra\TriangleNumbers.cs" />
   </ItemGroup>

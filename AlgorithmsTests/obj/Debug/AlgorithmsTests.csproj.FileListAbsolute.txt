@@ -34,3 +34,5 @@ C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\Pal
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\PalindromeIndex\output14.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\GemStones\input00.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\GemStones\output00.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\TwoStrings\input03.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\TwoStrings\output03.txt
