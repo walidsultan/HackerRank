@@ -39,6 +39,13 @@ namespace HackerRank.Algorithms.Strings
             }
 
             _console.WriteLine(gemStones.ToString());
+
+           // Console.WriteLine(
+           //Enumerable.Range(0, int.Parse(Console.ReadLine()))
+           //.Aggregate(
+           //    Enumerable.Range('a', 26).Select(x => (char)x),
+           //    (r, x) => r.Intersect(Console.ReadLine())
+           //).Count());
         }
     }
 }

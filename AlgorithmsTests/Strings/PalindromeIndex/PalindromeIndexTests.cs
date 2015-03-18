@@ -51,8 +51,8 @@ namespace HackerRank.AlgorithmsTests.Strings
         [TestMethod]
         public void PalindromeIndex_Test10()
         {
-            string[] stringSeparators = new string[] { "\r\n" };
-            string[] testData = File.ReadAllText("Strings\\PalindromeIndex\\input10.txt").Split(stringSeparators,StringSplitOptions.None);
+            string[] stringSeparators = new string[] { "\r\n", "\r", "\n" };
+            string[] testData = File.ReadAllText("Strings\\PalindromeIndex\\input10.txt").Split(stringSeparators, StringSplitOptions.None);
 
             ConsoleTester consoleTester = new ConsoleTester(testData);
 
@@ -71,7 +71,7 @@ namespace HackerRank.AlgorithmsTests.Strings
         [TestMethod]
         public void PalindromeIndex_Test14()
         {
-            string[] stringSeparators = new string[] { "\r\n" };
+            string[] stringSeparators = new string[] { "\r\n","\r","\n" };
             string[] testData = File.ReadAllText("Strings\\PalindromeIndex\\input14.txt").Split(stringSeparators,StringSplitOptions.None);
 
             ConsoleTester consoleTester = new ConsoleTester(testData);
