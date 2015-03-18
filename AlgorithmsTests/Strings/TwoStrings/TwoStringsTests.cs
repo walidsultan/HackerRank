@@ -12,7 +12,7 @@ namespace HackerRank.AlgorithmsTests.Strings
         [TestMethod]
         public void TwoStringsTests_Test03()
         {
-            string[] stringSeparators = new string[] { "\n" };
+            string[] stringSeparators = new string[] { "\r\n", "\r", "\n" };
             string[] testData = File.ReadAllText("Strings\\TwoStrings\\input03.txt").Split(stringSeparators, StringSplitOptions.None);
 
             ConsoleTester consoleTester = new ConsoleTester(testData);

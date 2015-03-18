@@ -36,3 +36,7 @@ C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\Gem
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\GemStones\output00.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\TwoStrings\input03.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\TwoStrings\output03.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\SummingTheNSeries\input03.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\SummingTheNSeries\input05.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\SummingTheNSeries\output03.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\SummingTheNSeries\output05.txt
