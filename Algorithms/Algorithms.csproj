@@ -64,6 +64,7 @@
     <Compile Include="Strings\PalindromeIndex.cs" />
     <Compile Include="Strings\GemStones.cs" />
     <Compile Include="Strings\Pangram.cs" />
+    <Compile Include="SummationsAndAlgebra\SummingTheNSeries.cs" />
     <Compile Include="SummationsAndAlgebra\TriangleNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
