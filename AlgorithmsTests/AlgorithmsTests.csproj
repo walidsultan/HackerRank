@@ -63,7 +63,6 @@
     <Compile Include="Strings\Pangram\PangramTests.cs" />
     <Compile Include="SummationsAndAlgebra\TriangleNumbers\TriangleNumbersTests.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Algorithms\Algorithms.csproj">
       <Project>{558b350f-f22c-49d3-bfc6-d967045a6b12}</Project>

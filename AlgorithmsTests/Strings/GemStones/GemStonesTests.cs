@@ -26,7 +26,7 @@ namespace HackerRank.AlgorithmsTests.Strings
         [TestMethod]
         public void GemStones_Test00()
         {
-            string[] stringSeparators = new string[] { "\n" };
+            string[] stringSeparators = new string[] { "\r\n", "\r", "\n" };
             string[] testData = File.ReadAllText("Strings\\GemStones\\input00.txt").Split(stringSeparators, StringSplitOptions.None);
 
             ConsoleTester consoleTester = new ConsoleTester(testData);

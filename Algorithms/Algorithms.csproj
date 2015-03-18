@@ -60,6 +60,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings\Anagram.cs" />
+    <Compile Include="Strings\MakeItAnagram.cs" />
     <Compile Include="Strings\PalindromeIndex.cs" />
     <Compile Include="Strings\GemStones.cs" />
     <Compile Include="Strings\Pangram.cs" />
