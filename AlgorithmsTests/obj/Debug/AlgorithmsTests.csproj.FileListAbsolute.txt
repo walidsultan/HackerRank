@@ -40,3 +40,5 @@ C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Summation
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\SummingTheNSeries\output03.txt
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\SummingTheNSeries\input05.txt
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\SummingTheNSeries\output05.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\NumberTheory\ReverseGame\input01.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\NumberTheory\ReverseGame\output01.txt
