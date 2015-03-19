@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Cryptography\KeywordTranspositionCipher\KeywordTranspositionCipherTests.cs" />
     <Compile Include="Cryptography\PRNGSequenceGuessing\PRNGSequenceGuessingTests.cs" />
     <Compile Include="DynamicProgramming\KnapSack\KnapSackTests.cs" />
     <Compile Include="GameTheory\PermutationGame\PermutationGameTests.cs" />
@@ -106,7 +107,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Strings\TwoStrings\output03.txt">
-		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="SummationsAndAlgebra\SummingTheNSeries\input03.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
