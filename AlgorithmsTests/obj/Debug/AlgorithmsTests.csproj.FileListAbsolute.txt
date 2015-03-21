@@ -50,3 +50,5 @@ C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsA
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\SummingTheNSeries\input05.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\SummingTheNSeries\output03.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\SummationsAndAlgebra\SummingTheNSeries\output05.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\SherlockAndAnagrams\input01.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\SherlockAndAnagrams\output01.txt

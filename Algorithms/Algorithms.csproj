@@ -65,6 +65,7 @@
     <Compile Include="Strings\MakeItAnagram.cs" />
     <Compile Include="Strings\PalindromeIndex.cs" />
     <Compile Include="Strings\GemStones.cs" />
+    <Compile Include="Strings\SherlockAndAnagrams.cs" />
     <Compile Include="Strings\TwoStrings.cs" />
     <Compile Include="Strings\Pangram.cs" />
     <Compile Include="SummationsAndAlgebra\SummingTheNSeries.cs" />

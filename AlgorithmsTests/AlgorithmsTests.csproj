@@ -63,6 +63,7 @@
     <Compile Include="Strings\GemStones\GemStonesTests.cs" />
     <Compile Include="Strings\PalindromeIndex\PalindromeIndexTests.cs" />
     <Compile Include="Strings\Pangram\PangramTests.cs" />
+    <Compile Include="Strings\SherlockAndAnagrams\SherlockAndAnagramsTests.cs" />
     <Compile Include="Strings\TwoStrings\TwoStringsTests.cs" />
     <Compile Include="SummationsAndAlgebra\SummingTheNSeries\SummingTheNSeriesTests.cs" />
     <Compile Include="SummationsAndAlgebra\TriangleNumbers\TriangleNumbersTests.cs" />
@@ -108,6 +109,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Strings\PalindromeIndex\output14.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Strings\SherlockAndAnagrams\input01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Strings\SherlockAndAnagrams\output01.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Strings\TwoStrings\input03.txt">
