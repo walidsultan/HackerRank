@@ -27,7 +27,7 @@ namespace HackerRank.Algorithms.Greedy
               toysCost += arr[i];
               if (toysCost > K)
               {
-                  _console.WriteLine(i);
+                  _console.WriteLine(i.ToString());
                   break;
               }
           }

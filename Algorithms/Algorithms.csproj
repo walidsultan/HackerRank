@@ -54,6 +54,7 @@
     <Compile Include="GameTheory\PermutationGame.cs" />
     <Compile Include="GraphTheory\AJourneyToTheMoon.cs" />
     <Compile Include="GraphTheory\EvenTree.cs" />
+    <Compile Include="Greedy\MarkAndToys.cs" />
     <Compile Include="IDisplayHandler.cs" />
     <Compile Include="ArraysAndSorting\InsertionSort.cs" />
     <Compile Include="DynamicProgramming\KnapSack.cs" />
