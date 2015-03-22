@@ -56,3 +56,5 @@ C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\S
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\SherlockAndAnagrams\output01.txt
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\TwoStrings\input03.txt
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\TwoStrings\output03.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\NumberTheory\ReverseGame\input01.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\NumberTheory\ReverseGame\output01.txt
