@@ -58,3 +58,7 @@ C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\T
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Strings\TwoStrings\output03.txt
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\NumberTheory\ReverseGame\input01.txt
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\NumberTheory\ReverseGame\output01.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\NumberTheory\ReverseGame\input01.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\NumberTheory\ReverseGame\output01.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\MagicalGirlDevuAndSpirits\input01.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\MagicalGirlDevuAndSpirits\output01.txt

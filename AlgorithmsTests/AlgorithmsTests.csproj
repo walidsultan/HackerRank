@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="101Hack\MagicalGirlDevuAndSpirits\MagicalGirlDevuAndSpiritsTests.cs" />
     <Compile Include="CodeGolf\Sudoku\SudokuTests.cs" />
     <Compile Include="Cryptography\KeywordTranspositionCipher\KeywordTranspositionCipherTests.cs" />
     <Compile Include="Cryptography\PRNGSequenceGuessing\PRNGSequenceGuessingTests.cs" />
@@ -76,6 +77,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="101Hack\MagicalGirlDevuAndSpirits\input01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="101Hack\MagicalGirlDevuAndSpirits\output01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="CodeGolf\Sudoku\Input00.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

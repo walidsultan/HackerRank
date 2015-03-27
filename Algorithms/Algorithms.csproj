@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="101Hack\DevuAndMinimizingRunsOfAString.cs" />
+    <Compile Include="101Hack\MagicalGirlDevuAndSpirits.cs" />
     <Compile Include="CodeGolf\Sudoku.cs" />
     <Compile Include="Combinatorics\ConnectingTowns.cs" />
     <Compile Include="Combinatorics\ConnectingTownsTests.cs" />
@@ -51,6 +53,7 @@
     <Compile Include="ConsoleTester.cs" />
     <Compile Include="Cryptography\KeywordTranspositionCipher.cs" />
     <Compile Include="Cryptography\PRNGSequenceGuessing.cs" />
+    <Compile Include="GameTheory\Class1.cs" />
     <Compile Include="GameTheory\PermutationGame.cs" />
     <Compile Include="GraphTheory\AJourneyToTheMoon.cs" />
     <Compile Include="GraphTheory\EvenTree.cs" />
