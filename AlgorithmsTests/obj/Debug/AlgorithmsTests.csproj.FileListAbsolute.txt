@@ -68,3 +68,15 @@ C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\Dev
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\DevuAndMinimizingRunsOfAString\output07.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\DevuAndMinimizingRunsOfAString\input02.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\DevuAndMinimizingRunsOfAString\output02.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\DevuAndMinimizingRunsOfAString\input01.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\DevuAndMinimizingRunsOfAString\input02.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\DevuAndMinimizingRunsOfAString\input07.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\DevuAndMinimizingRunsOfAString\output01.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\DevuAndMinimizingRunsOfAString\output02.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\DevuAndMinimizingRunsOfAString\output07.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\MagicalGirlDevuAndSpirits\input01.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\101Hack\MagicalGirlDevuAndSpirits\output01.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\TwoArrays\Input00.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\TwoArrays\input09.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\TwoArrays\Output00.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\TwoArrays\output09.txt

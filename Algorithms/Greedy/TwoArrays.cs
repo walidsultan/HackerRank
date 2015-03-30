@@ -19,20 +19,23 @@ namespace HackerRank.Algorithms.Greedy
             for (int t = 0; t < T; t++)
             {
                 int[] arr = _console.ReadLine().Split(' ').Select(s => int.Parse(s)).ToArray();
-                int N = arr[0];
                 int K = arr[1];
 
                 int[] arrA = _console.ReadLine().Split(' ').Select(s => int.Parse(s)).OrderByDescending(s => s).ToArray();
                 int[] arrB = _console.ReadLine().Split(' ').Select(s => int.Parse(s)).OrderBy(s => s).ToArray();
 
-                int delta = 0;
+                bool isPossible = true;
                 for (int i = 0; i < arrA.Length; i++)
                 {
-                    int d = (arrA[i] + arrB[i])-K;
-                    delta += d;
+                    int d = (arrA[i] + arrB[i]) - K;
+                    if (d < 0)
+                    {
+                        isPossible = false;
+                        break;
+                    }
                 }
 
-                if (delta >= 0)
+                if (isPossible)
                 {
                     _console.WriteLine("YES");
                 }
