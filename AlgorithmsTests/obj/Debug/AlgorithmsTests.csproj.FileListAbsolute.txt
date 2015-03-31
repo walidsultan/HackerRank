@@ -80,3 +80,5 @@ C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\Tw
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\TwoArrays\input09.txt
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\TwoArrays\Output00.txt
 C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\TwoArrays\output09.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\PriyankaAndToys\input01.txt
+C:\Users\wsultan\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\PriyankaAndToys\output01.txt

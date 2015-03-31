@@ -59,6 +59,7 @@
     <Compile Include="GameTheory\PermutationGame\PermutationGameTests.cs" />
     <Compile Include="GraphTheory\AJourneyToTheMoon\AJourneyToTheMoonTests.cs" />
     <Compile Include="GraphTheory\EvenTree\EvenTreeTests.cs" />
+    <Compile Include="Greedy\PriyankaAndToys\PriyankaAndToysTests.cs" />
     <Compile Include="Greedy\TwoArrays\TwoArraysTests.cs" />
     <Compile Include="NumberTheory\RestaurantTests.cs" />
     <Compile Include="NumberTheory\ReverseGame\ReverseGameTests.cs" />
@@ -119,6 +120,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="GraphTheory\AJourneyToTheMoon\Test13.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Greedy\PriyankaAndToys\input01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Greedy\PriyankaAndToys\output01.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Greedy\TwoArrays\Input00.txt">
