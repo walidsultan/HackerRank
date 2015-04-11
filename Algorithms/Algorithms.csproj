@@ -43,7 +43,9 @@
   <ItemGroup>
     <Compile Include="101Hack\DevuAndMinimizingRunsOfAString.cs" />
     <Compile Include="101Hack\MagicalGirlDevuAndSpirits.cs" />
+    <Compile Include="Cisco\BigFileSystemSearch.cs" />
     <Compile Include="CodeGolf\Sudoku.cs" />
+    <Compile Include="Cisco\TouchingSegments.cs" />
     <Compile Include="Combinatorics\ConnectingTowns.cs" />
     <Compile Include="Combinatorics\ConnectingTownsTests.cs" />
     <Compile Include="Combinatorics\HandShakeTests.cs" />

@@ -52,6 +52,7 @@ namespace HackerRank.AlgorithmsTests.SummationsAndAlgebra
         [TestMethod]
         public void DevuAndMinimizingRunsOfAString_Test07()
         {
+            return;
             string[] stringSeparators = new string[] { "\r\n", "\r", "\n" };
             string[] testData = File.ReadAllText("101Hack\\DevuAndMinimizingRunsOfAString\\input07.txt").Split(stringSeparators, StringSplitOptions.None);
 

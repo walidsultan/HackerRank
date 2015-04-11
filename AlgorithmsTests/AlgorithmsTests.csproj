@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="101Hack\DevuAndMinimizingRunsOfAString\DevuAndMinimizingRunsOfAStringTests.cs" />
     <Compile Include="101Hack\MagicalGirlDevuAndSpirits\MagicalGirlDevuAndSpiritsTests.cs" />
+    <Compile Include="Cisco\TouchingSegments\TouchingSegmentsTests.cs" />
     <Compile Include="CodeGolf\Sudoku\SudokuTests.cs" />
     <Compile Include="Cryptography\KeywordTranspositionCipher\KeywordTranspositionCipherTests.cs" />
     <Compile Include="Cryptography\PRNGSequenceGuessing\PRNGSequenceGuessingTests.cs" />
@@ -102,6 +103,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="101Hack\MagicalGirlDevuAndSpirits\output01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\TouchingSegments\input00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\TouchingSegments\output00.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="CodeGolf\Sudoku\Input00.txt">
