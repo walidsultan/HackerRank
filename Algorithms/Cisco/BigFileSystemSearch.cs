@@ -57,7 +57,7 @@ namespace HackerRank.Algorithms.Cisco
                                 }
                                 else
                                 {
-                                    file[aIndex] = -1;
+                                    fileCopy[aIndex] = -1;
                                 }
                             }
                             if (found)
@@ -79,7 +79,7 @@ namespace HackerRank.Algorithms.Cisco
                     case 3:
                         foreach (List<int> file in files)
                         {
-                            bool found = true;
+                            int found = 0;
                             int[] fileCopyArr = new int[file.Count];
                             file.CopyTo(fileCopyArr);
                             List<int> fileCopy = fileCopyArr.ToList();
@@ -88,15 +88,15 @@ namespace HackerRank.Algorithms.Cisco
                                 int aIndex = fileCopy.IndexOf(a);
                                 if (aIndex == -1)
                                 {
-                                    found = false;
+                                    found++;
                                     break;
                                 }
                                 else
                                 {
-                                    file[aIndex] = -1;
+                                    fileCopy[aIndex] = -1;
                                 }
                             }
-                            if (found)
+                            if (found>0 && found< K)
                             {
                                 filesCount++;
                             }

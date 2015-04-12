@@ -90,3 +90,13 @@ C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\TwoA
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Greedy\TwoArrays\output09.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\TouchingSegments\input00.txt
 C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\TouchingSegments\output00.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\BigFileSystemSearch\input00.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\BigFileSystemSearch\output00.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\BigFileSystemSearch\input01.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\BigFileSystemSearch\output01.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\JoiningByteBlocks\output00.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\JoiningByteBlocks\input00.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\SmallestStringAndRegex\input00.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\SmallestStringAndRegex\output00.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\SmallestStringAndRegex\input01.txt
+C:\Users\Walid\Documents\GitHub\HackerRank\AlgorithmsTests\bin\Debug\Cisco\SmallestStringAndRegex\output01.txt

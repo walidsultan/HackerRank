@@ -14,16 +14,23 @@ namespace HackerRank.Algorithms
         public ConsoleTester(string[] inputBuffer)
         {
             _inputBuffer = new List<string>();
-            _inputBuffer =inputBuffer .ToList();
+            _inputBuffer = inputBuffer.ToList();
 
             _outputBuffer = new List<string>();
         }
 
         public string ReadLine()
         {
-            string input = _inputBuffer[0];
-            _inputBuffer.RemoveAt(0);
-            return input;
+            if (_inputBuffer.Count > 0)
+            {
+                string input = _inputBuffer[0];
+                _inputBuffer.RemoveAt(0);
+                return input;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public void WriteLine(string s)

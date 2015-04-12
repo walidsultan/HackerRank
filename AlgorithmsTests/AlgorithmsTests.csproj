@@ -52,6 +52,9 @@
   <ItemGroup>
     <Compile Include="101Hack\DevuAndMinimizingRunsOfAString\DevuAndMinimizingRunsOfAStringTests.cs" />
     <Compile Include="101Hack\MagicalGirlDevuAndSpirits\MagicalGirlDevuAndSpiritsTests.cs" />
+    <Compile Include="Cisco\BigFileSystemSearch\BigFileSystemSearchTests.cs" />
+    <Compile Include="Cisco\JoiningByteBlocks\JoiningByteBlocksTests.cs" />
+    <Compile Include="Cisco\SmallestStringAndRegex\SmallestStringAndRegexTests.cs" />
     <Compile Include="Cisco\TouchingSegments\TouchingSegmentsTests.cs" />
     <Compile Include="CodeGolf\Sudoku\SudokuTests.cs" />
     <Compile Include="Cryptography\KeywordTranspositionCipher\KeywordTranspositionCipherTests.cs" />
@@ -103,6 +106,36 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="101Hack\MagicalGirlDevuAndSpirits\output01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\BigFileSystemSearch\input01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\BigFileSystemSearch\input00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\BigFileSystemSearch\output01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\BigFileSystemSearch\output00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\JoiningByteBlocks\output00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\JoiningByteBlocks\input00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\SmallestStringAndRegex\input01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\SmallestStringAndRegex\input00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\SmallestStringAndRegex\output01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Cisco\SmallestStringAndRegex\output00.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Cisco\TouchingSegments\input00.txt">

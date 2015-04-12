@@ -44,6 +44,8 @@
     <Compile Include="101Hack\DevuAndMinimizingRunsOfAString.cs" />
     <Compile Include="101Hack\MagicalGirlDevuAndSpirits.cs" />
     <Compile Include="Cisco\BigFileSystemSearch.cs" />
+    <Compile Include="Cisco\JoiningByteBlocks.cs" />
+    <Compile Include="Cisco\SmallestStringAndRegex.cs" />
     <Compile Include="CodeGolf\Sudoku.cs" />
     <Compile Include="Cisco\TouchingSegments.cs" />
     <Compile Include="Combinatorics\ConnectingTowns.cs" />
