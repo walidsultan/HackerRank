@@ -66,6 +66,7 @@
     <Compile Include="IDisplayHandler.cs" />
     <Compile Include="ArraysAndSorting\InsertionSort.cs" />
     <Compile Include="DynamicProgramming\KnapSack.cs" />
+    <Compile Include="LeetCode\SudokuSolver.cs" />
     <Compile Include="NumberTheory\MatrixTree.cs" />
     <Compile Include="NumberTheory\Restaurant.cs" />
     <Compile Include="NumberTheory\ReverseGame.cs" />

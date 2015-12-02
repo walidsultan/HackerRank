@@ -9,3 +9,9 @@ C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\obj\Debug\HackerRank.Algor
 C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.Algorithms.exe
 C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\bin\Debug\HackerRank.Algorithms.pdb
 C:\Users\Walid\Documents\GitHub\HackerRank\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Main\Projects\HackerRank\Algorithms\bin\Debug\HackerRank.Algorithms.exe.config
+C:\Main\Projects\HackerRank\Algorithms\bin\Debug\HackerRank.Algorithms.exe
+C:\Main\Projects\HackerRank\Algorithms\bin\Debug\HackerRank.Algorithms.pdb
+C:\Main\Projects\HackerRank\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Main\Projects\HackerRank\Algorithms\obj\Debug\HackerRank.Algorithms.exe
+C:\Main\Projects\HackerRank\Algorithms\obj\Debug\HackerRank.Algorithms.pdb

@@ -65,6 +65,7 @@
     <Compile Include="GraphTheory\EvenTree\EvenTreeTests.cs" />
     <Compile Include="Greedy\PriyankaAndToys\PriyankaAndToysTests.cs" />
     <Compile Include="Greedy\TwoArrays\TwoArraysTests.cs" />
+    <Compile Include="LeetCode\SudokuSolver\SudokuSolverTests.cs" />
     <Compile Include="NumberTheory\RestaurantTests.cs" />
     <Compile Include="NumberTheory\ReverseGame\ReverseGameTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -235,6 +236,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
